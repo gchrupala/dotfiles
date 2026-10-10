@@ -14,8 +14,9 @@ This symlinks `~/.claude/CLAUDE.md` to the file in this repo, so a `git pull` pi
 
 ## Cloud (claude.ai/code)
 
-Add this to each cloud environment's setup script
-(environment menu in the session title bar → Edit → Setup script):
+Add this to each cloud environment's setup script. At claude.ai/code, click the
+cloud icon with the environment's name in the row above the message box, then
+**Cloud** → hover the environment → settings (gear) icon → **Setup script**:
 
 ```bash
 mkdir -p ~/.claude
@@ -23,4 +24,10 @@ curl -fsSL https://raw.githubusercontent.com/gchrupala/dotfiles/main/claude/CLAU
   -o ~/.claude/CLAUDE.md || echo "warning: could not fetch global CLAUDE.md"
 ```
 
-New sessions fetch the latest version from `main`.
+The setup script result is cached for about seven days, so new sessions do not
+re-fetch on every start. To pick up a change sooner, edit the setup script
+(for example, bump the version comment) — that rebuilds the cache:
+
+```bash
+# claude-md v2
+```
