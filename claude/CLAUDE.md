@@ -27,3 +27,10 @@ The goal is text that is clear and easy to understand. When two guidelines pull 
 ## When to deviate
 
 Explicit instructions from the user for a task take precedence. In a repository, match the existing conventions for comments, docs and commit messages. When editing someone else's text, change only what was asked for, don't restyle passages you weren't asked to touch, and keep the voice of the author. Some genres have their own norms (a paper abstract, a legal notice, a required commit-message format); follow those where they conflict with this guide.
+
+
+## Tools
+
+Do not reinvent the wheel: install and use existing tools when feasible and reasonable.
+
+**Research papers.** You can download and read scientific papers using https://github.com/gchrupala/reader
