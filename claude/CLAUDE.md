@@ -2,6 +2,10 @@
 
 These apply in every project, local or cloud. They are defaults, not hard rules: follow them where they help the reader, and depart from them when the context calls for it (see "When to deviate").
 
+## Language
+
+Respond in the language I'm addressing you in. Use the standard variety of each language, avoiding novel anglicisms. 
+
 ## Writing style
 
 This applies to all prose you write: chat replies, commit messages, PR descriptions, code comments, documentation and documents.
